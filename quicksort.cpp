@@ -23,7 +23,12 @@ achieve this. Finally, we get n arrays of unit length (n = length of the actual 
 and we know, an array with a single element is already sorted. These unit arrays are
 then combined to form the final sorted array
 
-In this way, we can sort an array using quick sort algorithm*/
+In this way, we can sort an array using quick sort algorithm
+Time complexity analysis:
+Worst case - O(n²)
+Average case - O(n log n)
+Best case - O(n log n)
+*/
 
 
 #include <iostream>
