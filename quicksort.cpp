@@ -63,7 +63,7 @@ int partition(int a[],int low,int high){	//partitions the array into two sub arr
 
 
 void quick_sort(int a[],int low,int high){	
-	if (low<high){
+	if (low<high){		//terminating condition for recursion
 		int index = partition(a,low,high);
 		
 		quick_sort(a,low,index-1);
