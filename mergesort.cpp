@@ -1,3 +1,13 @@
+/*Merge sort is one of the most popular sorting algorithms which works on the principle
+of divide and conquer. 
+
+Here, the unsorted array is first divided into two parts about the mid element. Then, the
+sub arrays are again divided into two equal parts each about their mid elements. This
+division continues until we are left with n number of unit length arrays where n is the
+length of the array.  
+*/
+
+
 #include <iostream>
 using namespace std;
 
