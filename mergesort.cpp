@@ -7,7 +7,23 @@ division continues until we are left with n number of unit length arrays where n
 length of the array.
 
 The merge() function is responsible for combining all the unit length arrays into a
-single sorted array. 
+single sorted array. The merge() function is responsible for combining all the unit length arrays into a
+single sorted array.It is called inside the merge_sort() function.  First a new array
+is created. Then few variables are initialized: -i and k are initialised to the
+starting index, j is initialized to the index of mid+1.
+Our main  aim  is to compare the sub arrys and append those values to the newly created
+array. A single element is already sorted so the first two elements are just compared 
+and accordingly pushed into the array. Since, the merge_sort() is a recursive function,
+a larger size array is returned to the calling function. The comarison process now
+takes place for larger sized arrays and acordingly elements are pushed inside the
+new array.
+
+After all the comparisons are done, one case may arrive that one of the two
+sub arrays may have some elements which remain even after the comparison process
+is complete. In  such case, a while loop is used to push those elements in the new
+array without comparison since, they are already sorted from the previous comparison.
+Finally, all the elements are assigned to the previous array and in this way, the array
+gets sorted.
 */
 
 
